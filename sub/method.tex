@@ -1,0 +1,26 @@
+\documentclass[../main]{subfiles}
+\begin{document}
+
+\chapter{技术方案}%
+\label{cha:method}
+
+如图~\ref{fig:bp}，机器学习是现在 NLP 被广泛采用的技术方案。以最简单的 BP
+神经网络为例。通过指定输入的偏差，经过不断训练，就可以得到一个对相应输入有
+对应输入的系统。
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[
+    width = 0.8\linewidth,
+  ]{bp}
+  \caption{BP 神经网络}%
+  \label{fig:bp}
+\end{figure}
+
+近来的研究更加聚焦于非监督式学习和半监督学习的算法。这种算法，能够从没有人工
+注解理想答案的数据里学习。大体而言，这种学习比监督学习困难，并且在同量的数据
+下，通常产生的结果较不准确。不过没有注解的数据量极巨（包含了万维网），弥补了
+较不准确的缺点。
+
+\end{document}
+

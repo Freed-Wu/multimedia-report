@@ -1,0 +1,33 @@
+\documentclass[../main]{subfiles}
+\begin{document}
+
+\chapter{研究现状}%
+\label{cha:development}
+
+如表~\ref{tab:timeline}，早期的 NLP 系统如 SHRDLU 和 ELIZA 以积木世界的理论运
+行，运用有限的词汇表会话时，工作得相当好。这使得研究员们对此系统相当乐观，然
+而，当把这个系统从积木世界拓展到充满了含糊与不确定性的现实世界中时，他们很快
+丧失了信心。所以 ALPAC 报告的出现指明了这种方案根本行不通。
+
+在经历了 ALPAC 报告后， NLP 的研究经费大幅减少，研究也停滞不前。再经过一些尝试
+之后，现在被广泛使用的机器学习的算法终于使 NLP 迎来了新的春天。
+
+\begin{table}
+	\centering
+	\caption{时间线}%
+	\label{tab:timeline}
+	\begin{tabular}
+		{@{\,}r <{\hskip 2pt}!{\color{blue}\makebox[0pt]{\textbullet}\hskip-0.5pt\vrule width 1pt\hspace{\labelsep}} >{\raggedright\arraybackslash}p{5cm}}
+    1950 & 图灵发表论文\setquotestyle{book}\enquote{计算机器与智能}\setquotestyle{zh}。 \\
+		1954 & 乔治城实验：自动翻译超过60句俄文成为英文。 \\
+    1960 & 模仿人类交流的语言处理系统 SHRDLU 问世。 \\
+		1964 & 模仿人类交流的语言处理系统 ELIZA 问世。 \\
+		1966 & ALPAC报告发现十年研究未达预期目标。 \\
+    1970 & 可将现实世界的信息架构成电脑能够理解的数据的概念本体论被提出。 \\
+		1980 & 语言处理引进了机器学习的算法。 \\
+		2000 & 非监督学习和半监督学习开始兴起。
+	\end{tabular}
+\end{table}
+
+\end{document}
+
